@@ -27,7 +27,7 @@ public class BirthdayCakeCandles {
 			
 			if(year > maxYear ) {
 				maxYear = year;
-				candleCount = 1;
+				candleCount = 1; //reinitialize every time
 			} else if(year == maxYear ) {
 				candleCount ++;
 			}
@@ -50,9 +50,10 @@ public class BirthdayCakeCandles {
 								collect(toList());
 		
 		
-		// int result = birthdayCakeCandles(candles);
-		int result = birthdayCakeCandlesNew(candles);
+		int result = birthdayCakeCandles(candles);
+		
 		
 		IO.print("Number of candles that are tallest "+result);
+		bufferedReader.close();
 	}
 }
