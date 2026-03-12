@@ -6,7 +6,7 @@ import java.io.IOException;
 
 
 /*
-* Time Conversion (Warm-up)
+* Time ConversionTime Conversion (Warm-up)
 * Converts a 12-hour time format with AM/PM into a 24-hour time format.
 * Input : 07:05:45PM
 * Output : 19:05:45
