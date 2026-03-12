@@ -8,7 +8,8 @@ This repository contains my solution to various problems from HackerRank for pro
 
 - Java Practice
 - Algorithms
-- Data Structures
+- Data Structures(ds)
+- implementation
 
 ## Repository Structure
 
