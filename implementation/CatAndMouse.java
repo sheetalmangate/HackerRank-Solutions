@@ -1,12 +1,4 @@
 /*
-* HackerRank Problem : Cat and Mouse
-*
-*
-*
-*
-*
-*
-*
 *
 * HackerRank Problem :: Cat and Mouse
 *

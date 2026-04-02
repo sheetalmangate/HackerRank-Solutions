@@ -13,7 +13,6 @@
 *   Stack is always empty when hiker is at sea level. downhill is counted when hiker steps D and stack is empty. 
 *   Time complexity is O(n) + O(1) = O(n)
 *
-
 */
 
 package implementation;
@@ -65,9 +64,6 @@ public class CountingValleys {
 		int result = countingValleys(steps, path);
 		
 		bufferedReader.close();
-		
-		
-		
 		
 	}
 }
