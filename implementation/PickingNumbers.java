@@ -1,6 +1,15 @@
 /*
 * HackerRank Problem : Picking Numbers
 *
+* Given an array of integers, find the longest subarray where the absolute difference between any two elements is less than or equal to 1.
+*
+* Input : [ 4 6 5 3 3 1 ]
+* Output : 3
+*
+* Approch
+*	Using frequency array. iterate through frequency array and check max number from current index and next index. as per data constrint two numbers
+*   should be adjucent then only absolute difference is less than or equal to 1.  
+*
 */
 package implementation;
 
@@ -10,19 +19,7 @@ import java.io.IOException;
 
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
-/*
-* HackerRank Problem : Picking Numbers
-*
-* Given an array of integers, find the longest subarray where the absolute difference between any two elements is less than or equal to 1.
-*
-* Input : Steps : 8 and path : [UDDDUDUU]
-* Output : 1
-*
-* Approch
-*	Using frequency array. iterate through frequency array and check max number from current index and next index. as per data constrint two numbers
-*   should be adjucent then only absolute difference is less than or equal to 1.  
-*
-*/
+
 
 
 import java.util.Arrays;

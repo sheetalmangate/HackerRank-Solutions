@@ -51,6 +51,15 @@ public class SaveThePrisoner {
 		return lastChair;
 	}
 	
+	public static int saveThePrisoner1(int n, int m, int s) {
+		
+		/* We can solve this problem using moduler mathematics (s+m-1)%n. % outputs in range [0,n-1], so convert
+		* all the quantities in the operand with respect to counting from 0 i.e((s-1)+(m-1))%n  
+		* Then convert that answer with respect to counting from 1 i.e ((s-1)+(m-1))%n +1;
+		*/
+		return ((s-1)+(m-1))%n -1;
+	}
+	
 	public static void main(String[] args ) throws IOException {
 		
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
