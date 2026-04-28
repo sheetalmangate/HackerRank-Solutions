@@ -48,6 +48,9 @@ public class SherlockAndSquares {
 				
 			} catch(IOException ex) {
 				throw new RuntimeException(ex);
+			} finally {
+
+				bufferedReader.close();
 			}
 			
 		});
