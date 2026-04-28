@@ -10,7 +10,7 @@ package implementation;
 /*
 * HackerRank Problem - Extra Long Factorial
 * 
-* Fin the factorial of given number 
+* Find the factorial of given number 
 * factorial = n* (n-1) * (n -2) * ...... * 3 * 2 * 1;
 * factorial of n > 20 can't be stored in a 64 bit long variable. BigInteger must be used for calculation
 *
